@@ -145,7 +145,7 @@ class App extends Component {
   registerUser = (username, password, name, surname, role) => {
     LibraryService.registerUser(username, password, name, surname, role)
         .then((data) => {
-         
+
         })
   }
 }
